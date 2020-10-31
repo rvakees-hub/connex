@@ -1,0 +1,13 @@
+body{
+    font-family: 'Patua One', cursive;
+}
+.home{
+    width: 1365px;
+    height: 500px;
+    display: flex;
+}
+.pic{
+    width: 680px;
+    height: 500px;
+    margin-left: 100px;
+}
