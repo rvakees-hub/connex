@@ -81,7 +81,7 @@ class Form extends Component {
 
      <div>
          
-     <div className="container">
+     <div className="ccc">
          <div className="img">
              <img src="/img/undraw_delivery_address_03n0.svg"></img>
          </div>

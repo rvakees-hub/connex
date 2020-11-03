@@ -63,7 +63,7 @@ const Signup = () => {
 
      <div>
          
-        <div className="container">
+        <div className="ccc">
             <div className="img">
                 <img src="/img/undraw_hey_email_liaa.svg"></img>
             </div>

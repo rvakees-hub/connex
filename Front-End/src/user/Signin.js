@@ -41,7 +41,7 @@ const Signin = () => {
 
         <div>
          
-        <div className="container">
+        <div className="cccc">
             <div className="img">
                 <img src="/img/undraw_Delivery_re_f50b.svg"></img>
             </div>

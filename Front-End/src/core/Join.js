@@ -77,7 +77,7 @@ class Join extends Component {
 
      <div>
          
-     <div className="container">
+     <div className="ccc">
          <div className="img">
              <img src="/img/undraw_On_the_way_re_swjt.svg"></img>
          </div>

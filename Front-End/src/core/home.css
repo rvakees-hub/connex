@@ -1,5 +1,6 @@
 body{
-    font-family: 'Patua One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white !important;
 }
 .home{
     width: 1365px;
@@ -10,4 +11,101 @@ body{
     width: 680px;
     height: 500px;
     margin-left: 100px;
+}
+.mynav{
+    background-color: white;
+    border: none !important;
+
+}
+.nav-link{
+    color: rgb(29, 28, 28) !important;
+    background-color: none !important;
+    border: none !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.my-home-container{
+    /* background-color: #000; */
+}
+
+.my-home-img{
+    height: 300px;
+    width: 500px;
+    margin-top: 75px;
+    
+}
+.hometext{
+    font-weight: 600;
+    color: #f3c204;
+    margin-top: 120px;
+}
+.homehead{
+    color:rgb(19, 18, 18);
+    font-weight: 700;
+}
+.homeicontext{
+    font-weight: 600;
+    color:rgb(19, 18, 18);
+
+}
+.homeicon{
+    font-size: 60px;
+    color: #f3c204;
+
+}
+
+.myhomecard{
+    border: none;
+    box-shadow: 0px 15px 30px rgb(199, 195, 195);
+
+}
+.btn{
+    color:rgb(19, 18, 18);
+    font-weight: 600;
+    
+}
+.textarea{
+    font-weight: 600;
+    margin-left: 430px;
+    color:rgb(19, 18, 18);
+    margin-top: 50px;
+}
+.myhometext{
+    margin-left: 200px;
+}
+.myhomecardssss{
+    box-shadow: 0px 15px 30px rgb(199, 195, 195);
+    background-color: #f3c204;
+    margin-top: 30px;
+}
+.homeiconn{
+    font-size: 60px;
+    color:rgb(19, 18, 18);
+    
+}
+.homeicontextt{
+    color:rgb(19, 18, 18);
+    font-weight: 600;
+    
+}
+.car{
+    height: 200px;
+    width: 1360px;
+    margin-top: 100px;
+}
+.left{
+    position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-weight: 600;
+  color: white;
+  font-size: 50px;
+}
+.mycon{
+    position: relative;
+    text-align: center;
+    color: white;
 }
