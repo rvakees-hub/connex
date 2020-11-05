@@ -8,7 +8,7 @@
     "npm": "6.14.8"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "Front-End": "npm start --prefix Front-End",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Front-End && npm run build --prefix Front-End"
   },
