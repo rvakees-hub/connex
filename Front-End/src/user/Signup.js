@@ -101,26 +101,7 @@ const Signup = () => {
             </div>
         </div>
 
-        // <div>    
-        // <form>
-        //     <div>
-        //         <label className="form-group">Name</label>
-        //         <input onChange={handleChange('name')} type="text" className="form-control" value={name} />
-        //     </div>
-        //     <div>
-        //         <label className="form-group">Email</label>
-        //         <input onChange={handleChange('email')} type="email" className="form-control"  value={email}/>
-        //     </div>
-
-        //     <div>
-        //         <label className="form-group">Password</label>
-        //         <input onChange={handleChange('password')} type="password" className="form-control" value={password} />
-        //     </div>
-        //     <button onClick={clickSubmit} className="btn btn-primary">
-        //         Submit
-        //     </button>
-        // </form>
-        // </div>
+        
     );
 
         const showError = () => (

@@ -36,9 +36,14 @@ app.use("/api", userRoutes);
 app.use("/form", formRouter);
 app.use("/join", joinRouter);
 
+// app.use(express.static('Front-End/build'));
+//   app.get('/*', (req, res) => {
+//     res.sendFile(path.join(__dirname + 'Front-End/build/index.html'));
+// });
+
 app.use(express.static('Front-End/build'));
-  app.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname + 'Front-End/build/index.html'));
+app.get('*', (req, res) => {
+res.sendFile(path.join(__dirname, 'Front-End' , 'build','index.html'));
 });
 
 const port = process.env.PORT || 8000

@@ -6,22 +6,9 @@ import './home.css'
 const Home = () => (
 
 <div>
-        {/* <div class="row custom-section d-flex align-items-center">
-            <div class="col-12 col-lg-4">
-                <h1>Courier ConnEx</h1>
-                <h3>Process</h3>
-                
-                
-            </div>
-            <div class="col-12 col-lg-8">
-                <img src="/img/undraw_by_my_car_ttge.svg" className="pic" alt="Team process banner"/>
-            </div>
-        </div> */}
 
   <div className="container my-home-container"> 
   <div className="row">
-      
-
         <div className="col-lg-6">
                 <img src="https://i.pinimg.com/originals/e5/07/d7/e507d704d4b6fdcb17116762fcd99acd.gif" className="my-home-img" alt="Team process banner"/>
             
@@ -31,10 +18,9 @@ const Home = () => (
         <h2 className="homehead">Courier Delivery Service, <br/>Faster & Safest Delivery Service From Your Doorstep.</h2>
         <Link className="btn btn-warning btn-rounded" to={"/form"}><i className="fas fa-paper-plane" style={{fontWeight:'600'}}></i>  Send Your Parcel</Link>
         </div>
-
+  </div>
   </div>
 
-  </div>
 <div className="container myhomecontainer">
    <div className="row">
    <div className="col-lg-3">
@@ -118,72 +104,65 @@ const Home = () => (
     <div className="left"> <i class="fas fa-shipping-fast"></i> Faster than you think</div>
 </div>
 
-
-<footer class="bg-light text-center text-lg-left">
-  
-  <div class="container p-4">
-   
-    <div class="row">
-      
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+{/* <div className="container my-home-container"> 
+  <div className="row">
+        <div className="col-lg-6">
+        <p className="hometext">SEND YOUR PARCELS WITH SAFE</p>
+        <h2 className="homehead">Sit at Home <br/>We Will Take Care</h2>
         
-        <img src="https://gist.githubusercontent.com/prashankhan/fa4eb64aff3c79b53e2ccf988a4f4253/raw/8460e227250ff55304e1e15b11dc82ca85f50514/vakeesanlogo.svg" style={{width: "190px", marginTop:'50px'}}></img>
+        </div>
+        <div className="col-lg-6">
+                <img src="/img/undraw_by_my_car_ttge.svg" className="my-home-img" alt="Team process banner"/>
+                
+        </div>
         
-      </div>
-      
-
-    
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-dark">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 4</a>
-          </li>
-        </ul>
-      </div>
-      
-
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-dark">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 4</a>
-          </li>
-        </ul>
-      </div>
-      
-    </div>
-    
   </div>
-  
+  </div> */}
 
+  <div>
+    <h1 className="textareaaa">Our Social Media</h1>
+</div>
+  
+<div className="container myhomecontainer">
+   <div className="row">
+   <div className="col-lg-4">
+        <div className="card p-4 cardcon">
+        <i className="fab fa-facebook-square text-center homeiconsss"></i>
+        <h4 className="text-center homeicontext">Facebook</h4>
+        </div>
+     </div>
+     
+
+     <div className="col-lg-4">
+        <div className="card p-4 cardcon">
+        <i class="fab fa-instagram-square text-center homeiconsss"></i>
+        <h4 className="text-center homeicontext">Instagram</h4>
+        </div>
+     </div>
+
+     <div className="col-lg-4">
+        <div className="card p-4 cardcon">
+        <i class="fab fa-whatsapp-square text-center homeiconsss"></i>
+        <h4 className="text-center homeicontext">Whatsapp</h4>
+        
+        </div>
+     </div>
+   </div>
+</div>
+
+<div>
+    <h1 className="text">FAST, SIMPLE & CHEAPER</h1>
+    <h1 className="text1">COURIER SERVICE IN NORTHERN PROVINCE</h1>
+
+
+</div>
   
   <div class="text-center p-3" style={{backgroundColor: "rgb(19, 18, 18)"}}>
     © 2020 Copyright:
     <a class="text-dark" >Connex</a>
   </div>
   
-</footer>
+
 
     </div>
 

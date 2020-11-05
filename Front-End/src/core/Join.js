@@ -155,67 +155,6 @@ class Join extends Component {
 </div>
          </div>
      </div>
-
-
-            // <div className="jumbotron bxs mt-5 container mt-5 col-sm-12 col-md-12 col-lg-4">
-                
-            //  <form onSubmit={this.sentform} className="container "> 
-            //     <div className="form-group ">
-            //         <label className="text-muted">Name</label>
-            //             <input  type="text" className="form-control" 
-            //                  value={this.state.name} 
-            //                 onChange={this.name}
-            //              />
-            //         </div>
-
-            //         <div className="form-group">
-            //             <label className="text-muted">Phonenumber</label>
-            //             <input type="text" className="form-control" 
-            //                 value={this.state.phonenumber}
-            //                 onChange={this.phonenumber}
-
-            //             />
-            //         </div>
-
-            //         <div className="form-group">
-            //             <label className="text-muted">Address</label>
-            //             <input  type="text" className="form-control" 
-            //                 value={this.state.address}
-            //                 onChange={this.address}
-
-            //             />
-            //         </div>
-
-            //         <div className="form-group">
-            //             <label className="text-muted">Nic No</label>
-            //             <input  type="text" className="form-control" 
-            //                 value={this.state.nic}
-            //                 onChange={this.nic}
-
-            //             />
-            //         </div>
-
-            //         <div className="form-group">
-            //             <label className="text-muted">License No</label>
-            //             <input  type="text" className="form-control" 
-            //                 value={this.state.license}
-            //                 onChange={this.license}
-
-            //             />
-            //         </div>
-            //         <div className="form-group">
-            //             <label className="text-muted">Vehcle Categori</label>
-            //             <input  type="text" className="form-control" 
-            //                 value={this.state.vehicle}
-            //                 onChange={this.vehicle}
-
-            //             />
-            //         </div>
-            //         <button  className="btn btn-primary">
-            //             Submit
-            //         </button>
-            //     </form>
-            // </div>
         )
     }
 }

@@ -72,7 +72,7 @@ const Profile = ({match}) => {
 
         <div>
          
-        <div className="container">
+        <div className="ccc">
             <div className="img">
                 <img src="/img/undraw_destinations_fpv7.svg"></img>
             </div>
@@ -107,30 +107,6 @@ const Profile = ({match}) => {
             </div>
         </div>
 
-
-
-
-
-
-
-        // <form>
-        //     <div className="form-group">
-        //         <label className="scl">Name</label>
-        //         <input type="text" onChange={handleChange('name')} className="form-control" value={name} placeholder="Change Your Username" />
-        //     </div>
-        //     <div className="form-group">
-        //         <label className="scl">Email</label>
-        //         <input type="email" onChange={handleChange('email')} className="form-control" value={email} placeholder="Change Your Email"/>
-        //     </div>
-        //     <div className="form-group">
-        //         <label className="scl">Password</label>
-        //         <input type="password" onChange={handleChange('password')} className="form-control" value={password} placeholder="Change Your Password" />
-        //     </div>
-
-        //     <button onClick={clickSubmit} className="btn btncl">
-        //         Change
-        //     </button>
-        // </form>
     );
 
     return (

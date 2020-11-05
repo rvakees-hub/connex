@@ -12,6 +12,8 @@ import Adminuser from './user/Adminuser'
 import Form from "./core/Form";
 import Join from "./core/Join";
 import Profile from './user/Profile'
+import Contact from "./core/contact";
+import About from "./core/about";
 
 
 
@@ -25,7 +27,9 @@ const Routes = () => {
             <Switch>
                 <Route path="/" exact component={Home}/>
                 <Route path="/form" exact component={Form}/>
-                <Route path="/join" exact component={Join}/>        
+                <Route path="/join" exact component={Join}/> 
+                <Route path="/contact" exact component={Contact}/> 
+                <Route path="/about" exact component={About}/> 
                 <Route path="/signin" exact component={Signin}/>
                 <Route path="/signup" exact component={Signup}/>
                 <PrivateRoute path="/user/dashboard" exact component={Dashboard}/>

@@ -60,6 +60,15 @@ body{
 .myhomecard{
     border: none;
     box-shadow: 0px 15px 30px rgb(199, 195, 195);
+    transition-duration: 5s;
+    -webkit-transition: all 1s ease; 
+            -moz-transition: all 1s ease; 
+            -o-transition: all 1s ease; 
+            -ms-transition: all 1s ease; 
+            transition: all 1s ease;
+}
+.myhomecard:hover{
+    transform: scale(1.5); 
 
 }
 .btn{
@@ -80,6 +89,16 @@ body{
     box-shadow: 0px 15px 30px rgb(199, 195, 195);
     background-color: #f3c204;
     margin-top: 30px;
+    transition-duration: 5s;
+    -webkit-transition: all 1s ease; 
+            -moz-transition: all 1s ease; 
+            -o-transition: all 1s ease; 
+            -ms-transition: all 1s ease; 
+            transition: all 1s ease;
+}
+.myhomecardssss:hover{
+    transform: scale(1.5); 
+
 }
 .homeiconn{
     font-size: 60px;
@@ -108,4 +127,53 @@ body{
     position: relative;
     text-align: center;
     color: white;
+}
+.cardcon{
+    border: none;
+}
+.context{
+    color:rgb(19, 18, 18);
+    font-weight: 600;
+    font-size: 36px;
+}
+.homeiconsss{
+    font-size: 120px;
+    color: #f3c204;
+    transition-duration: 5s;
+    -webkit-transition: all 1s ease; 
+            -moz-transition: all 1s ease; 
+            -o-transition: all 1s ease; 
+            -ms-transition: all 1s ease; 
+            transition: all 1s ease;
+}
+.textareaaa{
+    font-weight: 600;
+    margin-left: 500px;
+    color:rgb(19, 18, 18);
+    margin-top: 50px;
+}
+.homeiconsss:hover{
+    transform: scale(1.5); 
+}
+.text{
+    font-weight: 600;
+    color:rgb(19, 18, 18);
+    margin-left: 400px;
+}
+.text1{
+    font-weight: 600;
+    color:rgb(19, 18, 18);
+    margin-left: 220px;
+}
+.im{
+    height: 200px;
+    width: 1360px;
+    margin-top: 100px;
+}
+.textttt{
+    margin-right: 300px;
+}
+.pp{
+    color: #000;
+    margin-left: 80px;
 }

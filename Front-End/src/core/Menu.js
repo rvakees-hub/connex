@@ -17,13 +17,13 @@ const Menu = ({ history }) => (
                 <Link className="nav-link mr-auto" style={isActive(history, '/')} to="/" > <img src="https://gist.githubusercontent.com/prashankhan/fa4eb64aff3c79b53e2ccf988a4f4253/raw/8460e227250ff55304e1e15b11dc82ca85f50514/vakeesanlogo.svg" style={{width: "190px"}}></img> </Link>
             </li>
 
-            {/* <li className="nav-item" style={{ marginTop: "15px"}}>
-                <Link className="nav-link" style={isActive(history, '/form')} to="/form" > Parcel Details </Link>
-            </li> */}
+            <li className="nav-item" style={{ marginTop: "15px"}}>
+                <Link className="nav-link " style={isActive(history, '/about')} to="/about" > About </Link>
+            </li>
 
-            {/* <li className="nav-item" style={{ marginTop: "15px"}}>
-                <Link className="nav-link" style={isActive(history, '/join')} to="/join" > JoinNow </Link>
-            </li> */}
+            <li className="nav-item" style={{ marginTop: "15px"}}>
+                <Link className="nav-link " style={isActive(history, '/contact')} to="/contact" > Contact  </Link>
+            </li>
 
        
             {isAuthenticated() && isAuthenticated().user.role === 0 && (
